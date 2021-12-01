@@ -8,8 +8,8 @@ const baseUrl = '/mobx-value/'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'mobx-value document',
-  tagline: 'make a simpler data management',
+  title: 'mobx-value',
+  tagline: 'simpler data management',
   url: 'https://superwf.github.io',
   baseUrl,
   trailingSlash: false,

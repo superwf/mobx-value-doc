@@ -6,13 +6,15 @@ title: Install
 
 # Install mobx-value
 
-## command
-
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+## Use only function component
+
+If your project use only function component, `mobx-react-lite` is enougth.
+
 <Tabs
-  groupId="language"
+  groupId="install-fc"
   defaultValue="npm"
   values={[
     { label: 'npm', value: 'npm', },
@@ -37,16 +39,14 @@ yarn add mobx mobx-react-lite mobx-value
 
 </Tabs>
 
-## Explain
-
-### React class component
-
-If your project only use function component, `mobx-react-lite` is enougth.
+## Use class component
 
 If your need use React class component, change `mobx-react-lite` to `mobx-react`.
 
+`mobx-react` includes `mobx-react-lite`.
+
 <Tabs
-  groupId="language"
+  groupId="install-for-class"
   defaultValue="npm"
   values={[
     { label: 'npm', value: 'npm', },
@@ -71,6 +71,6 @@ yarn add mobx mobx-react mobx-value
 
 </Tabs>
 
-### MobX Version requirement
+## Requirement
 
 Make sure `mobx` version >= 6

@@ -14,12 +14,14 @@ After that, data management become a new heavy and hard work.
 
 Redux and Vuex came out to solve it.
 
-But they all bring more code layer, and blocked my mind a lot.
+But they all bring more code layers
 
 Is there some better tool can do the same work like redux, and can hide the complexity?
 
-After many project and compared with many tools such as redux, redux-saga, vuex, context + hooks, recoil ...
+After many project and compared with many tools such as redux, immutable, redux-saga, vuex, context + hooks, recoil, one day I enter the mobx ecosystem.
 
-Yes, data management is never easy, but I hope a tool can hide hard part and provide light api for developer.
+They all could solve data problem, and also increased the burden of thinking.
 
-Finally, I made this one.
+In real world, data management is never easy, but I hope a tool can hide the hard logic and provide as simple as possible api for developers.
+
+Finally, mobx-value born 🎉

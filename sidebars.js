@@ -28,7 +28,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Document',
-      items: ['introduction', 'install'],
+      items: ['introduction', 'install', 'gist'],
     },
   ],
 }
